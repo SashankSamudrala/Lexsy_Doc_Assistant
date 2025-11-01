@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+SQLAlchemy
+alembic
+python-docx
+lxml
+jinja2
+mammoth
+groq
+python-dotenv

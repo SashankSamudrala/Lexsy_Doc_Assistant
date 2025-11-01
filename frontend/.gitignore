@@ -1,0 +1,58 @@
+# ----------------------------------------
+# General Exclusions (OS and IDE specific)
+# ----------------------------------------
+.DS_Store # macOS files
+.vscode/    # VSCode settings (if you don't want to share them)
+
+# ----------------------------------------
+# Python (Backend) Specific Exclusions
+# ----------------------------------------
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+.venv/
+build/
+develop-eggs/
+dist/
+*.egg-info
+
+# Logs and databases
+*.log
+*.sqlite3
+app.db # Specific database file visible in your structure
+
+# Temporary files
+.coverage
+htmlcov/
+.nox/
+
+# ----------------------------------------
+# Frontend (JavaScript/TypeScript) Specific Exclusions
+# ----------------------------------------
+# Dependency directories
+node_modules/
+
+# Build/output directories
+/dist
+/build
+/out
+
+# NPM package lock files (keep package.json, ignore the lock)
+package-lock.json
+
+# Vite/Next/etc. specific (common build output)
+.vite
+.next
+
+# ----------------------------------------
+# Environment Variables
+# ----------------------------------------
+# ALWAYS exclude actual environment variable files!
+.env
